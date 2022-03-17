@@ -4,20 +4,43 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <style>
 
-#non-mobile {
-	color: green;
+  body {
+    background-color: green;
+  }
+  #desktop {
     display: block;
-}
-
-#mobile {
-    display: none;
-}
-
-@media only screen and (max-width: 600px) {
-  #non-mobile {
+  }
+  #tablet {
     display: none;
   }
-  
+  #mobile {
+    display: none;
+  }
+
+@media only screen and (max-width: 768px) {
+  body {
+    background-color: blue;
+  }
+  #desktop {
+    display: none;
+  }
+  #tablet {
+    display: block;
+  }
+  #mobile {
+    display: none;
+  }
+
+@media only screen and (max-width: 640px) {
+  body {
+    background-color: red;
+  }
+  #desktop {
+    display: none;
+  }
+  #tablet {
+    display: none;
+  }
   #mobile {
     display: block;
   }
@@ -26,7 +49,8 @@
 </head>
 <body>
 
-<p id="non-mobile">Device Tablet & Desktop</p>
+<p id="desktop">Device Desktop</p>
+<p id="tablet">Device Tablet</p>
 <p id="mobile">Device Mobile</p>
 
 </body>
