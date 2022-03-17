@@ -1,0 +1,89 @@
+.bg-darkblue01{
+    background-color: rgb(207, 212, 237);
+}
+
+.bg-darkblue05{
+    background-color: rgb(5, 27, 111);
+}
+
+.bg-darkblue04{
+    background-color: rgb(12, 40, 166);
+}
+
+.bg-darkblue03{
+    background-color: rgb(94, 112, 196);
+}
+
+.bg-darkblue02{
+    background-color: rgb(174, 183, 226);
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (max-width: 576px) { 
+    .flex-nav{
+        flex-grow: initial;
+    }
+    .flex-rev{
+        flex-wrap: wrap-reverse;
+    }
+    .wd-100{
+        max-width: 100% !important;
+    }
+    .pdnav{
+        padding: 10px;
+    }
+    .navbar-brand{
+        Width: 100px;
+        height: 34px;
+    }
+    .kotakmobil{
+        position: absolute;
+        width: 98.5%;
+        height: 60%;
+        bottom: 0;
+        border-top-left-radius: 60px;
+    }
+    .posisi-mobil{
+        z-index: 10; 
+        position: relative;
+    }
+    .init{
+        text-align: initial;
+    }
+    .text-ctr{
+        text-align: center;
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+    .flex-nav{
+        flex-grow: initial;
+    }
+    
+    .wd-100{
+        max-width: 100% !important;
+    }
+    .pdnav{
+        padding: 136px;
+    }
+    .navbar-brand{
+        Width: 100px;
+        height: 34px;
+    }
+    .kotakmobil{
+        position: absolute;
+        width: 98.5%;
+        height: 60%;
+        bottom: 0;
+        border-top-left-radius: 60px;
+    }
+    .posisi-mobil{
+        z-index: 10; 
+        position: relative;
+    }
+    .init{
+        text-align: initial;
+    }
+ }
+
